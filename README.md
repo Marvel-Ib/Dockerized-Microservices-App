@@ -1,2 +1,10 @@
 # Dockerized-Microservices-App
-Using my Knowledge of Docker to implement a Microservices Architecture and deploy my images to Docker Hub
+
+
+# TOdo: 
+
+--authentication so only logged in users can enter 
+-- create patch and delte request for user 
+
+
+## Error 
