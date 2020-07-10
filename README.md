@@ -12,7 +12,7 @@ I will definitely still create a side-project that will have a usecase and beaut
 
 ### Technologies
 
-Node.js --- Docker----MySQL---ExpressJs---Babel---PayStack-Api 
+Node.js --- Docker----MySQL---ExpressJs---Babel---PayStack-Api---Express-http-proxy
 
 ## Project Implementation 
 
@@ -20,10 +20,18 @@ Node.js --- Docker----MySQL---ExpressJs---Babel---PayStack-Api
 
 <img src="demo/filestructure.png">
 
-I had two services 
+I had two services (Implemented Independently of each other )
 - User Service
-- Verify Service
+  - A service to create new users and get all users
+  - Built as a docker image so I could use it in my docker-compose file 
+  - Used mysql docker image to store user information.
 
+- Verify Service
+  - A Verification Service to verify Nigerian Account Number and Resolve Card Bin (utillizes Paystack Api)
+  - Built as a docker image so I could use it in my docker-compose file 
+
+
+**API GATEWAY**
 
 
 
