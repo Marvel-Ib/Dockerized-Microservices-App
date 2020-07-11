@@ -70,8 +70,7 @@ POST /users
 
 
 {"name":"rest user"}
-```
-** 
+``` 
 
 **Verify Service**
 
@@ -107,6 +106,7 @@ error image
 <img src="demo/stackoverflow.png">
 
 **State of API GATEWAY Code After Fixing the Error**:
+#######
 <img src="demo/wayafter.png">
 
 **End of Error Highlight**
@@ -117,9 +117,12 @@ error image
 **USING POSTMAN TO TEST THE PROJECT**
 
 ##### Starting up docker-compose:
+######
 <img src="demo/composerun.png"
 
 #### Test
+
+######
 
 <img src="demo/test.gif"/>
 
