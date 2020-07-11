@@ -82,7 +82,7 @@ Service that verifies Nigerian Account Numbers and Resolve Card Bin utilizing  *
 GET /verify/acc_no?account_no="ACCOUNT_NUMBER"&bank_code="BANK_CODE"
 ```
 
-**GET Request --- Resolve Card BIN
+**GET Request --- Resolve Card BIN**
 ```
 GET /verify/card_details/"FIRST_SIX_DIGITS_OF_PAN_CARD"
 ```
@@ -102,7 +102,8 @@ error image
 
 **How Long it took to fix**: Well A little Embarrassing to write but it took me like 3hrs before I could debug the error. Stack Overflow was my Saviour 
 
-**Found a Similar question on StackOverflow and the StackOverFlow Comment that saved me was**:
+**Found a Similar question on StackOverflow and the StackOverFlow Comment that saved is below**:
+###### Stack Overflow Answer
 <img src="demo/stackoverflow.png">
 
 **State of API GATEWAY Code After Fixing the Error**:
