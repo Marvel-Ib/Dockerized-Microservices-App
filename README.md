@@ -93,10 +93,11 @@ GET /verify/card_details/"FIRST_SIX_DIGITS_OF_PAN_CARD"
 **I want to start adding this to my readme to describe the biggest error I faced during the project**
 
 **Error Faced**: API Gateway not routing requests to any of the services 
-error image
+##### error image
 <img src="demo/wayerror.png">
 
 **State of  API GATEWAY Code  Before Fixing the Error**:
+<br/>
 <img src="demo/waybefore.png">
 
 **How Long it took to fix**: Well A little Embarrassing to write but it took me like 3hrs before I could debug the error. Stack Overflow was my Saviour 
