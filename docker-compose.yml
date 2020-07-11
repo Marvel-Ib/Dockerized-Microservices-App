@@ -1,0 +1,43 @@
+version: "3"
+services: 
+  api-gateway:
+    build: "./api-gateway"
+    depends_on:
+      -  users-service
+      -  verify-service
+    environment:
+      - USERS_SERVICE_URI=http://users-service:7101;
+      - VERIFY_SERVICE_URI=http://users-service:7102;
+    ports:
+      - "7000:7000"
+    volumes:
+      - ./api-gateway:/opt/app
+
+  users-service:
+      build: "./users-service"
+      environment:
+        - PORT=7200
+        - PASSWORD=password
+        - DATABASE=users
+      depends_on: 
+        - users-service-db
+      volumes:
+        - ./users-service:/opt/app
+      ports:
+        - 7101:7101
+    
+  users-service-db:
+        environment:
+          - MYSQL_ROOT_PASSWORD=password
+          - MYSQL_DATABASE=users
+        image: mysql  
+        ports:
+          - 0.0.0.0:7200:3306
+          
+  verify-service:
+      build: "./verify-service"
+      volumes:
+        - ./verify-service:/opt/app
+      ports:
+        - 7102:7102
+        
