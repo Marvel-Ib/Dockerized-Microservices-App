@@ -76,7 +76,7 @@ POST /users
 
 Service that verifies Nigerian Account Numbers and Resolve Card Bin utilizing  **PayStack Api** 
 
-**GET Request ---verifies an account number with the bank code **
+**GET Request ---verifies an account number with the bank code**
 ```
 GET /verify/acc_no?account_no="ACCOUNT_NUMBER"&bank_code="BANK_CODE"
 ```
