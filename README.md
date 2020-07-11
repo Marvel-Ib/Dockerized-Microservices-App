@@ -61,12 +61,12 @@ Service that stores the user
 
 **GET Request--- get all users**
 ```
-GET /user
+GET /users
 ```
 
 **POST Request - creates a new user**
 ``` 
-POST /user
+POST /users
 
 
 {"name":"rest user"}
@@ -79,7 +79,7 @@ Service that verifies Nigerian Account Numbers and Resolve Card Bin utilizing  *
 
 **GET Request ---verifies an account number with the bank code **
 ```
-GET /verify/acc_no?acc_no="ACCOUNT_NUMBER"&bank_code="BANK_CODE"
+GET /verify/acc_no?account_no="ACCOUNT_NUMBER"&bank_code="BANK_CODE"
 ```
 
 **GET Request --- Resolve Card BIN
@@ -89,9 +89,46 @@ GET /verify/card_details/"FIRST_SIX_DIGITS_OF_PAN_CARD"
 
 
 
-### Error Highlight 
+## Error Highlight 
 **Experimental section**
 **I want to start adding this to my readme to describe the biggest error I faced during the project**
+
+**Error Faced**: API Gateway not routing requests to any of the services 
+error image
+<img src="demo/wayerror.png">
+
+**State of  API GATEWAY Code  Before Fixing the Error**:
+<img src="demo/waybefore.png">
+
+**How Long it took to fix**: Well A little Embarrassing to write but it took me like 3hrs before I could debug the error. Stack Overflow was my Saviour 
+
+**Found a Similar question on StackOverflow and the StackOverFlow Comment that saved me was**:
+<img src="demo/stackoverflow.png">
+
+**State of API GATEWAY Code After Fixing the Error**:
+<img src="demo/wayafter.png">
+
+**End of Error Highlight**
+
+
+
+## Test RUN
+**USING POSTMAN TO TEST THE PROJECT**
+
+##### Starting up docker-compose:
+<img src="demo/composerun.png"
+
+#### Test
+
+<img src="demo/test.gif"/>
+
+
+
+
+
+
+
+
 
 
 
