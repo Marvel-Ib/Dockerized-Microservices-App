@@ -103,10 +103,11 @@ error image
 
 **Found a Similar question on StackOverflow and the StackOverFlow Comment that saved is below**:
 ###### Stack Overflow Answer
+<br/>
 <img src="demo/stackoverflow.png">
 
 **State of API GATEWAY Code After Fixing the Error**:
-#######
+<br/>
 <img src="demo/wayafter.png">
 
 **End of Error Highlight**
@@ -117,13 +118,11 @@ error image
 **USING POSTMAN TO TEST THE PROJECT**
 
 ##### Starting up docker-compose:
-######
-<img src="demo/composerun.png"
+<br/>
+<img src="demo/composerun.png"/>
 
 #### Test
-
-######
-
+<br/>
 <img src="demo/test.gif"/>
 
 
