@@ -102,7 +102,7 @@ GET /verify/card_details/"FIRST_SIX_DIGITS_OF_PAN_CARD"
 
 **How Long it took to fix**: Well A little Embarrassing to write but it took me like 3hrs before I could debug the error. Stack Overflow was my Saviour 
 
-**Found a Similar question on StackOverflow and the StackOverFlow Comment that saved is below**:
+**Found a Similar question on StackOverflow and the StackOverFlow Comment that saved me is below**:
 ###### Stack Overflow Answer
 <br/>
 <img src="demo/stackoverflow.png">
